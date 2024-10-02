@@ -3,20 +3,20 @@
 Необходимо вывести на экран результат выражения.
 В нашем примере это 35. Арифметическое выражение может состоять только из трёх частей: число, операция, число.
 Возможные операции: +,-,*,/'''
-math=input('Введите арифметическое выражение: ')
-
-if '+' in math:
-    num=math.split('+')
-    print(math, '=', int(num[0])+int(num[1]))
-if '-' in math:
-    num = math.split('-')
-    print(math, '=', int(num[0]) - int(num[1]))
-if '*' in math:
-    num = math.split('*')
-    print(math, '=', int(num[0]) * int(num[1]))
-if '/' in math:
-    num = math.split('/')
-    print(math, '=', int(num[0]) / int(num[1]))
+# math=input('Введите арифметическое выражение: ')
+#
+# if '+' in math:
+#     num=math.split('+')
+#     print(math, '=', int(num[0])+int(num[1]))
+# if '-' in math:
+#     num = math.split('-')
+#     print(math, '=', int(num[0]) - int(num[1]))
+# if '*' in math:
+#     num = math.split('*')
+#     print(math, '=', int(num[0]) * int(num[1]))
+# if '/' in math:
+#     num = math.split('/')
+#     print(math, '=', int(num[0]) / int(num[1]))
 
 '''Задание 2:
 В списке целых, заполненном случайными числами, определить минимальный и максимальный элементы,
