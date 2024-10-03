@@ -2,14 +2,14 @@
 Пользователь вводит количество недель, месяцев, лет и получает количество дней за это время.
 Считать, что в месяце 30 дней'''
 
-week=int(input('Введите количество недель: '))
-month=int(input('Введите количество месяцев: '))
-year=int(input('Введите количество лет: '))
-day_in_week=week*7
-day_in_month=month*30
-day_in_year=day_in_month*12
-result_day=day_in_week+day_in_month+day_in_year
-print('Количество дней за это время: ', result_day)
+# week=int(input('Введите количество недель: '))
+# month=int(input('Введите количество месяцев: '))
+# year=int(input('Введите количество лет: '))
+# day_in_week=week*7
+# day_in_month=month*30
+# day_in_year=day_in_month*12
+# result_day=day_in_week+day_in_month+day_in_year
+# print('Количество дней за это время: ', result_day)
 
 '''Задание 2.
 Пользователь вводит 3 числа. 
@@ -71,12 +71,11 @@ num="0123456789" и bkv="цБиУфКрВыЫ"
 '''Задание 6.
 Вывести ряд чисел: десять десяток, девять девяток, восемь восьмерок, ... , одну единицу.
 Найти сумму всех этих чисел.'''
-# scope = 10
-# sum=0
-# for i in range(scope, 0, -1):
-#     num = i
-#     sum=sum+i*i
-#     for j in range(0, i):
-#         print(num, end=' ')
-#     print("\r")
-# print(sum)
+sum=0
+for i in range(10, 0, -1):
+    num = i
+    sum=sum+i*i
+    for j in range(0, i):
+        print(num, end=' ')
+    print("\r")
+print(sum)
